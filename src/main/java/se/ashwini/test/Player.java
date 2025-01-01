@@ -6,26 +6,25 @@ public class Player {
 
 
     private String name;
-    private int playerID;
 
 
-    // Constructors to initialize player
 
-    public Player(String name, int playerID) {
+    // Constructors to initialize objects
+
+    public Player(String name) {
         this.name = name;
-        this.playerID = playerID;
+
 
     }
+
+    // Get methods to get name & ID
 
 
     public String getName() {
+
         return name;
     }
 
-
-    public int getPlayerID() {
-        return playerID;
-    }
 
     }
 
